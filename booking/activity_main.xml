@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tostov.booking_drivers.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/leftarrow"
+            android:width="10dp"
+            android:height="20dp"
+            android:text="Back"
+
+            />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/clock"
+        android:width="300dp"
+        android:height="50dp"
+        android:layout_gravity="center"
+        android:background="#33D1FF"
+        android:text="9:00AM"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/clock"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_gravity="center"
+            android:background="#33A5FF"
+            android:text="11:00AM"
+            android:layout_marginBottom="20dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/clock"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_gravity="center"
+            android:background="#336EFF"
+            android:text="1:00PM"
+            android:layout_marginBottom="20dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/clock"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_gravity="center"
+            android:background="#5833FF"
+            android:text="3:00AM"
+            android:layout_marginBottom="20dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/clock"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_gravity="center"
+            android:background="#E88E0C"
+            android:text="3:30AM"
+            android:layout_marginBottom="20dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/clock"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_gravity="center"
+            android:background="#E88E0C"
+            android:text="4:00PM"
+            android:layout_marginBottom="20dp"
+
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
